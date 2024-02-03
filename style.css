@@ -1,0 +1,192 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  header {
+      background-color: #fdfafa;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }
+
+  .menu {
+      text-transform: capitalize;
+      margin-left: 14em;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .item_menu {
+      margin-right: 2.5em;
+      color: black;
+  }
+
+  .ANC {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .pages {
+      display: flex;
+      padding: 1rem;
+      justify-content: space-between;
+  }
+
+  ul {
+      text-align: center;
+      background-color: #f7f7f7;
+      font-size: 22px;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .container-cursos {
+      align-items: flex-end;
+      background-image: url(https://ancbrasil.org.br/wp-content/uploads/2021/09/estudantes.jpg);
+      display: flex;
+      justify-content: center;
+      min-height: 70vh;
+      position: relative;
+  }
+
+  .curso {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 40px;
+      color: #ffffff;
+      margin-right: 35px;
+      padding: 100px;
+      width: 400px;
+      background-image: url(https://ancbrasil.org.br/wp-content/uploads/2021/09/03-1.png);
+      background-repeat: no-repeat;
+  }
+
+  #capacitacao {
+      position: absolute;
+      left: 300px;
+      top: 13em;
+  }
+
+  #consultoria {
+      position: absolute;
+      top: 13em;
+  }
+
+  #recursos {
+      position: absolute;
+      right: 300px;
+      top: 13em;
+  }
+
+  .sobre {
+      background-image: url(https://ancbrasil.org.br/wp-content/uploads/2021/09/fundo-02.jpg);
+      padding: 200px 70px 70px 70px;
+      background-repeat: no-repeat;
+      min-height: 75vh;
+      border-bottom-left-radius: 50em 10em;
+      border-bottom-right-radius: 50em 10em;
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  h2 {
+      font-size: 40px;
+      font-weight: 400;
+
+  }
+
+  #sobre-paragrafo {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: center;
+
+  }
+
+  h3 {
+      font-size: 40px;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+      color: #898989;
+      padding: 50px;
+  }
+    .box-organizado{
+        position: relative;
+
+    }
+  .container-artigos {
+      margin-left: 220px;
+      top: -150px;
+      position: absolute;
+      box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.18);;
+      display: flex;
+      border-radius: 20px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 90em;
+      background-color: #ffffff;
+  }
+
+  .artigos {
+      display: flex;
+  }
+
+  .tamanho-imge {
+      width: 25em;
+      height: 15em;
+  }
+
+  .conteudo {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 15px;
+      margin-left: 15px;
+      width: 27em;
+      height: 40em;
+  }
+
+  .tit {
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      color: #54595f;
+      font-weight: 600;
+  }
+
+  .para {
+      font-family: 'Roboto', sans-serif;
+      font-size: 17px;
+      color: #777777;
+  }
+
+  .box-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEC;
+    padding: 70px;
+    position: absolute;
+    bottom: -1900px;
+    width: 100%;
+  }
+  .box-paragrafo{
+    width: 600px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    color: #898989;
+  }
